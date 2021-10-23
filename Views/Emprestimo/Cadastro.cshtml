@@ -10,26 +10,26 @@
             <legend>Usuario</legend>
             <div class="form-group">
                 <label asp-for="Emprestimo.NomeUsuario">Nome</label>
-                <input asp-for="Emprestimo.NomeUsuario" class="form-control"/>
+                <input asp-for="Emprestimo.NomeUsuario" class="form-control" required/>
             </div>
             <div class="form-group">
                 <label asp-for="Emprestimo.Telefone">Telefone</label>
-                <input asp-for="Emprestimo.Telefone" class="form-control"/>
+                <input asp-for="Emprestimo.Telefone" class="form-control" required/>
             </div>
         </fieldset>
         <fieldset>
             <legend>Livro</legend>
             <div class="form-group">
                 <label asp-for="Emprestimo.DataEmprestimo">Data de Empréstimo</label>
-                <input type="date" asp-for="Emprestimo.DataEmprestimo" class="form-control"/>
+                <input type="date" asp-for="Emprestimo.DataEmprestimo" class="form-control" required/>
             </div>
             <div class="form-group">
                 <label asp-for="Emprestimo.DataDevolucao">Data de Devolução</label>
-                <input type="date" asp-for="Emprestimo.DataDevolucao" class="form-control"/>
+                <input type="date" asp-for="Emprestimo.DataDevolucao" class="form-control" required/>
             </div>
             <div class="form-group">
                 <label asp-for="Emprestimo.LivroId">Livro</label>
-                <select asp-for="Emprestimo.LivroId" class="form-control">
+                <select asp-for="Emprestimo.LivroId" class="form-control" required>
                     @foreach(Livro l in Model.Livros)
                     {
                         <option value="@l.Id">@l.Titulo</option>

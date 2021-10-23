@@ -7,10 +7,10 @@
             <h1>Bem vindo ao sistema Biblioteca</h1>
             <form asp-action="Login" method="POST">
                 <div class="form-group">
-                    <input type="text" placeholder="Login" class="form-control" name="login" />
+                    <input type="text" placeholder="Login" class="form-control" name="login" required/>
                 </div>
                 <div class="form-group">
-                    <input type="password" placeholder="Senha" class="form-control" name="senha"/>
+                    <input type="password" placeholder="Senha" class="form-control" name="senha" required/>
                 </div>
                 <input type="submit" class="btn btn-primary btn-lg" value="Entrar" />
             </form>
