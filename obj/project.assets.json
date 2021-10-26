@@ -850,11 +850,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 1\\Biblioteca\\Biblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 2\\Biblioteca+melhorias\\Biblioteca.csproj",
       "projectName": "Biblioteca",
-      "projectPath": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 1\\Biblioteca\\Biblioteca.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 2\\Biblioteca+melhorias\\Biblioteca.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 1\\Biblioteca\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Marcelo T I senac\\unidades curriculares\\UC7\\Atividade 2\\Biblioteca+melhorias\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
